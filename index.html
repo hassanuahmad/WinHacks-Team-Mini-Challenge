@@ -10,8 +10,7 @@
     <style>
             body{
                   background-color: #40f99b;
-                  /* text-size: 45px; */
-                  
+                  /* font-size: 45px;   */
             }
             
             table, th, td {
@@ -19,11 +18,10 @@
                   padding: 15px;
                   text-shadow:1px 1px 1px #ccc;
                   margin: 0 200px;
-                  
             }
+
             table{
                    border: 16px ridge(5,10,1);
-        
             }
             
             h1{
@@ -32,6 +30,7 @@
                 font-size: 100px;
                 margin: 0px;
             }
+
             h3{
                 color:#89fc00;
                 font-family: 'Ravi Prakash', cursive;
@@ -40,19 +39,19 @@
             }
            
             marquee{
-                color:#ffffff;
-                
+                color:#ffffff; 
             }
+
             div{
                 position: absolute;
-                
                 z-index: 1;
             }
+
             p{
                 font-family: 'Ravi Prakash', cursive;
                 font-size: 25px;
-
             }
+
             .button {
                 background-color: #4CAF50; /* Green */
                 border: none;
@@ -64,16 +63,12 @@
                 margin: 4px 2px;
                 cursor: pointer;
                 font-family: 'Ravi Prakash', cursive;
-
             }
            .button4 {
                 padding: 32px 16px;
                 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
            }
-           
-           
-           
-            
+                           
       </style>
       <body>  
             <!-- most of content follows the body tag -->
@@ -104,52 +99,48 @@
 
             <a href="#chaos">Where am I</a>
 
-            <img src="gifToad.gif" alt = "toad" width=10%><br>
-            <img src="gifToad.gif" alt = "toad" width=10%><br>
-            <img src="gifToad.gif" alt = "toad" width=10%><br>
-           
+            <marquee direction="left"><img src="gifToad.gif" alt = "toad" width=10%><br></marquee>   
+            <marquee direction="right"><img src="gifToad.gif" alt = "toad" width=10%><br></marquee>   
+            <marquee direction="left"><img src="gifToad.gif" alt = "toad" width=10%><br></marquee>   
 
-            <a name="jokes"></a>
+            <section id="jokes">
             <h3>Jokes</h3>
 
-           <div style="float:left;"> <table style="width:100%">
-                  <tr>
-                        Joke</th>
-                        <th>Answer</th>
-                       
-                  </tr>
-                  <tr>
-                        <td>What do you call an illegally parked frog?
-                        <td>Toad
-                       
-                  </tr>
-                  
-                        <td>What do toads drink?</td>
-                        <td>Croaka-cola!</td>
-                        
-                  
-                   <tr>
-                        <td>Where do toads keep their treasure?</td>
-                        <td>In a croak of gold at the end of the rainbow!</td>
-                        
-                  </tr>
-                   <tr>
-                        <td>What goes dot-dot-croak, dot-dash-croak?</td>
-                        <td>Morse toad!
-                        
-                  </tr>
-                 
-                        <td>What do you say to a hitchhiking toad?</td>
-                        <td>Hop in!</td>
-                        
-                  
-            </table>
-            </div>
+            <table class="center" style="width:75%">
+                <tr>
+                    <th>Joke</th>
+                    <th>Answer</th>  
+                </tr>
 
+                <tr>
+                    <td>What do you call an illegally parked frog?</td>
+                    <td>Toad</td> 
+                </tr>
+
+                <tr>
+                    <td>What do toads drink?</td>
+                    <td>Croaka-cola!</td>
+                </tr>
+
+                <tr>
+                    <td>Where do toads keep their treasure?</td>
+                    <td>In a croak of gold at the end of the rainbow!</td>       
+                </tr>
+
+                <tr>
+                    <td>What goes dot-dot-croak, dot-dash-croak?</td>
+                    <td>Morse toad!</td>
+                </tr> 
+
+                <tr>
+                    <td>What do you say to a hitchhiking toad?</td>
+                    <td>Hop in!</td>    
+                </tr>
+            </table>
+        </section>
             <a name="top"></a>
 
-            
-            type="button" >Click me!</button> <br ><br>
+            <button type="button" onclick="alert('You pressed the button!')">Click me!</button><br><br>
 
             <a href="#jokes">Back to the jokes! Ribbit</a><br><br><br><br>
 
@@ -159,29 +150,46 @@
                 <option value="TOADS"></option>
                 <option value="TOADS"></option>
                 <option value="TOADS"></option>
-                </datalist>
-            <h3><em>For example;
-            </em> TOADS</h3>
-            <marquee>
-            <iframe src="https://gifer.com/embed/F6SV" width=480 height=410.000 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>
-            </marquee>
-            <marquee direction="right">
-            <iframe src="https://gifer.com/embed/VhdJ" width=480 height=412.800 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>
-            </marquee> 
+            </datalist>
+            <p><em>For example;</em>TOADS</p>
+            <marquee><iframe src="https://gifer.com/embed/F6SV" width=480 height=410.000 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p></marquee>
+            <marquee direction="right"><iframe src="https://gifer.com/embed/VhdJ" width=480 height=412.800 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p></marquee> 
 
             <h3> Email in to submit your fav toad -----> thisisfake@toadspond.ca</h3>
             <a href="https://www.google.com/search?q=toads&rlz=1C1CHBF_enCA912CA912&sxsrf=ALeKk035YK8jJJMkhgGcLdv9Vk2sf6eNXQ:1615760806383&source=lnms&tbm=isch&biw=1920&bih=937">All the toads</a>
             <br> <br> <br> <br>
-            <a href="top">Back to top of page</a>
+            <a href="top">Back to top of page</a><br>
 
            
-                <img src="finalToad.gif" alt = "toad" width=7% > 
-                <img src="finalToad.gif" alt = "toad" width=7% > 
-                <img src="finalToad.gif" alt = "toad" width=7% > 
-                <img src="finalToad.gif" alt = "toad" width=7% > 
-                <img src="finalToad.gif" alt = "toad" width=7% > 
-              
-            
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <br> 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+            <img src="finalToad.gif" alt = "toad" width=5% > 
+
+          
             
       </body>
 </html>
